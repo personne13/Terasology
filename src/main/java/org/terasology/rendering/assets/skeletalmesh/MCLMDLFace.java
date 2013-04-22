@@ -14,5 +14,7 @@ import java.util.List;
 
 public class MCLMDLFace 
 {
-    private List<Vector3f> point = Lists.newArrayList();   
+    private List<Vector3f> point = Lists.newArrayList();
+    private List<Vector2f> coordFileTexture = Lists.newArrayList();
+    //Must add Color variables but I don't know how to do (it's just a Vector3f variable with OpenGL)
 }
