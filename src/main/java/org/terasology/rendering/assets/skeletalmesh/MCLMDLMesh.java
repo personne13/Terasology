@@ -38,6 +38,7 @@ import static org.lwjgl.opengl.GL11.glVertexPointer;
  */
 public class MCLMDLMesh implements Asset 
 {
-	int nbCubes = 0;
-	List<MCLMDLCube> cube = Lists.newArrayList();
+	public int nbMembers = 0;
+	public List <MCLMDLCube> Cube = Lists.newArrayList();
+	public List <MCLMDLAnimation> animation = Lists.newArrayList();
 }
